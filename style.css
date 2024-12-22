@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://live.staticflickr.com/8364/8347300234_ce5c7ac578_b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav h2{
+    color: white;
+}
+nav button{
+    padding: 14px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+}
+.container{
+    height: 80%;
+    width: 100%;
+}
+.date{
+    display: flex;
+} 
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social p{
+    color: white;
+    padding:10px 30px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+img{
+    margin: 20px;
+    transition: 1s all;
+}
+img:hover{
+    scale: 1.1;
+}
